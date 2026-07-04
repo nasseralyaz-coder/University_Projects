@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+
+.header-home {
+  font-family: Arial, sans-serif;
+  /*background-image: url(—Pngtree—urban\ office\ buildings\ high-end\ office_1518404ii.jpg);
+  background-size: 100%;
+  background-position: 0px 80px;
+  background-repeat: no-repeat;*/
+  background-color: /*rgb(0, 162, 255)*//*rgb(167, 224, 181)*/rgba(24, 23, 23, 0.829);
+  padding-bottom: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+  color: white;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.nav-links, .nav-links li {
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.logo-img{
+  width: 100px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input, .search-bar button {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 400px;
+  border: 2px solid black ;
+  color: black;
+}
+
+.search-bar button {
+  background-color: /*#febd69*/ #ff9100;
+  border: none;
+  cursor: pointer;
+}
+
+/*-----------------*/
+
+/* تنسيق شريط التنقل */
+.navbar {
+  overflow: hidden;
+  background-color: /*#232f3e*//* rgb(0, 162, 255)*/ white;
+  box-shadow: 0 0px 20px 0 /*rgb(46, 61, 73)*/ black;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  float: left;
+}
+
+.nav-links li a, .drop-btn {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* التنسيق عند مرور الماوس فوق العناصر */
+.nav-links li a:hover, .dropdown:hover .drop-btn {
+  background-color: red;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* قائمة منسدلة */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right; /* لجعل النص محاذى لليمين */
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.div-bar{
+  background-color: rgb(0, 0, 0);
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.header-section{
+  color: white;
+}
+
+@font-face {
+  font-family: 'EspressoShow';
+  src: url('EspressoShow.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header-name{
+  font-family: 'EspressoShow' , sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+  margin-top: 130px;
+  margin-left: 70px;
+
+}
+
+.header-img{
+  width: 650px;
+  border-color: white;
+  border-style: solid;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding: 10px;
+  position: relative;
+  left: 400px;
+  top: -80px;
+  
+}
+
+.header-logo{
+  width: 250px;
+  position: relative;
+  top: -180px;
+  left: 180px;
+}
+
+.header-section-descrp{
+  font-size: 14px;
+  width: 610px;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.616);
+  position: absolute;
+  left: 20px;
+  top: 480px;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+.section-website{
+  background-color: #232f3e;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 20px;
+}
+.section-website-name-small{
+  text-align: center;
+  font-size: 22px;
+  padding-top: 30px;
+}
+.section-website-name{
+  text-align: center;
+}
+
+.section-website-setion{
+  font-size: 20x;
+}
+.section-website-setion-div{
+  background-color: rgba(255, 255, 255, 0.322);
+  width: 500px;
+  position: relative;
+  margin-bottom: 30px;
+  left: 30px;
+  top: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.section-website-setion-div-name{
+  padding-bottom: 25px;
+}
+
+/*---------------------------------------------------------------*/
+
+.section-website-two{
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+  
+}
+
+.section-website-two-name{
+  padding-bottom: 15px;
+}
+
+.hero{
+  width: 700px;
+  height: 700px;
+  left: 600px;
+  top: 900px;
+  position: absolute;
+  border-top-right-radius: 100px;
+}
+/*----------------------------------------------------*/
+
+footer{
+  background-color: black;
+  padding: 50px;
+  color: white;
+}
+.footer-img{
+  width: 200px;
+  margin-left: 50px;
+}
+.footer-website{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 3;
+  position: relative;
+  left: 700px;
+  top: -140px;
+}
+
+.footer-emil{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-save{
+  text-align: center;
+  margin-top: -50px;
+  
+}
+
+/*---------------------------------------*/
+
+.section-website-two-hotel-section{
+  width: 150px;
+  background-color: rgba(24, 23, 23, 0.829);
+  padding: 20px;
+  color: white;
+  margin-top:50px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.section-website-two-link{
+  text-decoration: none;
+
+}

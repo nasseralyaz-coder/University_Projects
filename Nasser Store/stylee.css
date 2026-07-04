@@ -1,0 +1,44 @@
+body{background-color: #d3d3d3; background-image: url(dkt.png); background-size: contain;}
+header{ background-color: deeppink;}
+h1{ background-color: deeppink; color: white; border-radius: 50px; border-style: solid; border-width: 15px; border-color: deeppink; font-size: 30px; text-align: center; width: 500px; margin-left: 400px; margin-top: 30px;}
+.store-img{width: 300px; height: 200px; margin-left: 180px; margin-top: 20px;}
+.store-name{ display: inline; position: absolute; color:white; margin-top: 80px; margin-left: 40px; font-size: 30px;}
+.de-store-nasser{ background-color: #f3f1f1; color: black; border-radius: 50px; border-style: solid; border-width: 15px; border-color:deeppink; font-size: 25px; width: 500p; margin-top: -30px; padding: 20px;}
+.hed{margin-left: 250px;}
+.store-home{width: 20px; height: 20px; background-color: rgb(255, 255, 255); border-style: solid; border-color: rgb(255, 255, 255); border-radius: 100px; padding-right: 30px; padding-left: 30px; margin-top: -5px;}
+.store-sweet{background-color: rgb(255, 255, 255); border-style: solid; border-color: rgb(255, 255, 255); color: black; border-radius: 50px; padding-right: 20px; padding-left: 20px;}
+.store-signin{background-color: rgb(255, 255, 255); border-style: solid; border-color: rgb(255, 255, 255); color: black; border-radius: 50px; padding-right: 20px; padding-left: 20px;}
+ul.navv {padding-left: 450px; margin:0px; display: flex; list-style: none; background-color: rgb(0, 0, 0); background-attachment: fixed; height: 50px;}
+ul.navv li { padding: 30px; margin-top: -12px;}
+.Some{background-color: #f3f1f1; width: 300px ; height: 500px; padding: 10px;border-radius: 50px; border-style: solid; border-width: 5px;border-color: deeppink; margin-left: 200px; margin-top: 50px;}
+.Some2{background-color: #f3f1f1; width: 300px ; height: 500px; padding: 10px; border-radius: 50px; border-style: solid; border-width: 5px;border-color: deeppink; display: inline; position: absolute; margin-left: 800px; margin-top: -530px;}
+/*.Some3{background-color: #f3f1f1; width: 300px ; height: 500px; padding: 10px; border-radius: 50px; border-style: solid; border-width: 5px;border-color: deeppink; display: inline; position: absolute; margin-left: 800px; margin-top: -530px;}*/
+.name-some{margin-left: 90px; font-size: 25px;}
+.price{ background-color: deeppink; color: white; border-radius: 50px; border-style: solid; border-width: 15px; border-color: deeppink; font-size: 20px; padding-left: 90px;}
+form{
+    padding: 30px;
+    margin: 0 35px 20px 35px;
+    border: 2px solid deeppink;
+    box-sizing: 2px 5px 8px 6px deeppink;
+}
+form input{
+    width: 80%;
+    text-align: center;
+    padding: 13px;
+    background-color: #fff;
+    border-radius: 17px;
+}
+form input[type="submit"]{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: deeppink;
+}
+form input[type="submit"]:hover{
+    color: yellow;
+}
+.img_det{ width: 500px; height: 500px; border-style: solid; border-color: deeppink; border-radius: 50px; margin-left: 400px; margin-top: 50px; background-color: white;}
+.name_det{margin-left: 380px;}
+.abli{color: white; background-color: #ff005e; border-radius: 20px; border-color: #ff005e; border-style: solid; padding: 20px; width: 150px; margin-left: 30px; padding-left: 90px; font-size: 20px;}
+.lbli{background-color: white; border-radius: 20px; border-color: #ff005e; border-style: solid; padding: 20px; width: 150px; margin-left: 30px; padding-left: 90px; font-size: 20px; margin-top: -40px; color: black;}
+.og{ background-color: white; border-radius: 20px; border-color: #ff005e; border-style: solid; padding: 20px; width: 1000px; margin-left: 30px; padding-left: 90px; font-size: 20px; margin-top: -40px; color: black;}
+footer{background-color: black; text-align: center; font-size: 25px; color: white; padding: 20px;}

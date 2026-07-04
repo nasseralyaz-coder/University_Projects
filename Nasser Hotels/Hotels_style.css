@@ -1,0 +1,154 @@
+.section-Page-Hotels{
+    background-color: rgba(24, 23, 23, 0.829);
+    margin-top: -10px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.section-Page-Hotels-img{
+    height: 700px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 30px;
+}
+
+.section-Page-Hotels-img-div{
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    display: inline-block;
+    position: relative;
+    left: 190px;
+}
+
+.section-Page-Hotels-descrp{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.section-Page-Hotels-evaluation-num{
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin-right: 7px;
+    border-radius: 10px;
+}
+.section-Page-Hotels-evaluation{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section-Page-Hotels-div{
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.section-Page-Hotels-aside{
+    margin: 10px;
+    padding-bottom: 400px;
+    box-shadow: -1px 0px 20px 6px black;
+}
+
+.section-Page-Hotels-information{
+    font-size: 20x;
+  }
+.section-Page-Hotels-information-serv{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 80px;
+    padding: 30px;
+    width: 160px;
+    height: 75px;
+    margin-bottom: 340px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+.section-Page-Hotels-information-dist{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 80px;
+    padding: 30px;
+    width: 160px;
+    height: 75px;
+    margin-bottom: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.section-Page-Hotels-information-dist-img{
+    width: 50px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+.section-Page-Hotels-information-dist-section{
+    width: 500px;
+    margin-top: 20px;
+}
+.section-Page-Hotels-information-desc{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 80px;
+    padding: 30px;
+    width: 320px;
+    height: 75px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.section-Page-Hotels-information-desc-name{
+    width: 1120px;
+    background-color: rgba(24, 23, 23, 0.829);
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.section-Page-Hotels-information-one-font{
+    padding-bottom: 25px;
+}
+
+
+.section-Page-Hotels-information-serv-section{
+    border: 2px solid black;
+    position: relative;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    padding-left: 10px;
+    text-align: center;
+    top: 30px;
+    margin-top: 30px;
+
+}
+
+.section-Page-Hotels-information-serv-section-2{
+    border: 2px solid black;
+    position: relative;
+    border-radius: 20px;
+    width: 300px;
+    padding: 25px;
+    padding-left: 10px;
+    text-align: center;
+    top: -230px;
+    left: 800px;
+    margin-top: 30px;
+}
+
+.section-Page-Hotels-information-serv-section-img{
+    width: 50px;
+}
+.section-Page-Hotels-information-serv-section-name{
+    position: relative;
+    left: 10px;
+    top: -13px;
+}
+
